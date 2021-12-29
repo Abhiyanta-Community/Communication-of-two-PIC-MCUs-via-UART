@@ -1,0 +1,67 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"5 C:\Users\Lenovo\Desktop\Task2.3\Transmitter.X\Transmitter.c
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+"23
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+"29
+[v _main main `(v  1 e 1 0 ]
+"217 C:\Program Files\Microchip\xc8\v2.31\pic\include\proc\pic16f877.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1055
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"1371
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2069
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"2261
+[v _BRGH BRGH `VEb  1 e 0 @1218 ]
+"2330
+[v _CREN CREN `VEb  1 e 0 @196 ]
+"2588
+[v _RX9 RX9 `VEb  1 e 0 @198 ]
+"2606
+[v _SPEN SPEN `VEb  1 e 0 @199 ]
+"2636
+[v _SYNC SYNC `VEb  1 e 0 @1220 ]
+"2771
+[v _TRISC6 TRISC6 `VEb  1 e 0 @1086 ]
+"2774
+[v _TRISC7 TRISC7 `VEb  1 e 0 @1087 ]
+"2816
+[v _TX9 TX9 `VEb  1 e 0 @1222 ]
+"2825
+[v _TXEN TXEN `VEb  1 e 0 @1221 ]
+"2831
+[v _TXIF TXIF `VEb  1 e 0 @100 ]
+"2873
+[v _nRBPU nRBPU `VEb  1 e 0 @1039 ]
+"29 C:\Users\Lenovo\Desktop\Task2.3\Transmitter.X\Transmitter.c
+[v _main main `(v  1 e 1 0 ]
+{
+"39
+} 0
+"23
+[v _UART_send_char UART_send_char `(v  1 e 1 0 ]
+{
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 wreg ]
+[v UART_send_char@bt bt `uc  1 a 1 0 ]
+"27
+} 0
+"5
+[v _Initialize_UART Initialize_UART `(v  1 e 1 0 ]
+{
+"21
+} 0
